@@ -30,4 +30,11 @@ public class IntroLabTest {
      *       the test results.
      * As a reference, we've included testExampleStudent above.
      */
+
+    @Test(timeout = 10)
+    public void testZhangEnf(){
+        String expected = "Hi! My name is Enfei! I like dogs more than cats! I don't know what to put here.";
+        String actual = IntroLab.zhangenf();
+        assertEquals(expected, actual);
+    }
 }

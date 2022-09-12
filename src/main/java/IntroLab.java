@@ -42,6 +42,13 @@ public class IntroLab {
      */
 
     /**
+     * A method that calls on printLabMessage
+     */
+    public static String zhangenf(){
+        return printLabMessage("Hi", "Enfei", false, "I don't know what to put here.");
+    }
+
+    /**
      * An example method that calls on printLabMessage.
      */
     public static String exampleStudent() {
@@ -52,7 +59,7 @@ public class IntroLab {
 
     public static void main(final String[] args) {
         System.out.println(exampleStudent());
-
+        System.out.println(zhangenf());
         /* TODO: Add a call to the method you wrote in this main method,
          *        and print the results of it.
          *
